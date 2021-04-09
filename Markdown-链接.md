@@ -2,4 +2,4 @@
 
 [链接名称](链接地址)或者<链接地址>
 
-例如这是一个链接 [菜鸟教程](https://www.runoob.com)
+例如：这是一个链接 [菜鸟教程](https://www.runoob.com)
