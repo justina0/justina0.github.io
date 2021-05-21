@@ -1,0 +1,24 @@
+I"|<blockquote>
+  <p>区块中使用列表</p>
+  <ol>
+    <li>第一项</li>
+    <li>第二项
+      <ul>
+        <li>第一项</li>
+        <li>第二项</li>
+        <li>第三项</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+
+<ul>
+  <li>第一项
+    <blockquote>
+      <p>菜鸟教程
+学的不仅是技术更是梦想</p>
+    </blockquote>
+  </li>
+  <li>第二项</li>
+</ul>
+:ET
