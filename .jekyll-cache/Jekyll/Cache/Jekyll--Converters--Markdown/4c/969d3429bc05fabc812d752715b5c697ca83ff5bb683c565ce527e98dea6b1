@@ -1,6 +1,6 @@
-I"\<h1 id="web应用软件开发实训-第二次作业-开发一个静态网站">WEB应用软件开发实训-第二次作业-开发一个静态网站</h1>
+I"<h1 id="web应用软件开发实训-第二次作业-开发一个静态网站">WEB应用软件开发实训-第二次作业-开发一个静态网站</h1>
 
-<p>公网地址：<a href="https://justina0.github.io/">https://justina0.github.io/</a></p>
+<p>公网地址：<a href="https://github.com/justina0/step-by-step1.git">https://github.com/justina0/step-by-step1.git</a></p>
 
 <p>Github仓库地址：<a href="https://github.com/justina0/justina0.github.io.git">https://github.com/justina0/justina0.github.io.git</a></p>
 
@@ -66,6 +66,6 @@
 <p>6、在VSCode里将网站源代码都push到了GitHub.com网站上，并通过Github.io网站检查Jekyl代码是否被正确编译。</p>
 
 <h2 id="四实验总结">四、实验总结</h2>
-<p>在这次实验中，遇到了很多的问题，通过上网的搜寻并求助了老师和同学。第一次实现step-by-step前九步比较顺畅，并成功push到github.com网站上。小问题：权限问题，需要在命令前加上sudo但是之后再打开网址就无法正常打开了，我就重新做了前九步，出现了新的问题：（1）在git push -u origin main时，无法读取远程仓库。解决方法：删除远程库重新关联，重新配置ssh key。（2）在vscode里的网址能正常打开，但github里的网址却不能正常打开。解决方法：
-实验心得：上课时，虽然跟不上老师的操作流程，但通过课后练习操作发现并解决问题的过程中，查阅资料，丰富基础知识，慢慢熟悉了解开发一个静态网站所需要的一些基本的步骤以及git的一些基础命令操作。</p>
+<p>在这次实验中，遇到了很多的问题，通过上网的搜寻并求助了老师和同学。小问题：权限问题，需要在命令前加上sudo。第一次实现step-by-step前九步时比较顺畅，并成功push到github.com网站上。但是之后再打开网址就无法正常打开了，我就重新做了前九步，出现了新的问题：（1）在git push -u origin main时，无法读取远程仓库。解决方法：删除远程库重新关联，重新配置ssh key。（2）在vscode里的网址能正常打开，但github里的网址却不能正常打开。解决方法：
+实验心得：上课时，虽然跟不上老师的操作流程，但通过课后练习操作发现并解决问题的过程中，查阅资料，丰富基础知识，慢慢熟悉了解了Github和VSCode的基本使用、Markdown的基本语法、git的一些基础命令操作和开发一个静态网站所需要的一些基本的步骤等，实现了用Markdown写一篇帖子并发布到我自己的网站上。</p>
 :ET
