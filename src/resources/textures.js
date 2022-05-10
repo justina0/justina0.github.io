@@ -10,15 +10,16 @@ billboardTextures.fundTexture =
 
 let boxTexture = {};
 // 链接的图标地址
-boxTexture.Github = '../src/jsm/githubLogo.png';
-boxTexture.BiliBili = '../src/jsm/BiliBili.png';
-boxTexture.QQ = '../src/jsm/qq.png';
-boxTexture.mail = '../src/jsm/envelope.png';
+// boxTexture.Github = '../src/jsm/githubLogo.png';
+// boxTexture.BiliBili = '../src/jsm/BiliBili.png';
+// boxTexture.QQ = '../src/jsm/qq.png';
+// boxTexture.mail = '../src/jsm/envelope.png';
 boxTexture.reactIcon = '../src/jsm/react.png';
 boxTexture.allSkills = '../src/jsm/allSkills.png';
 boxTexture.lensFlareMain = '../src/jsm/lensflare0.png';
-boxTexture.skrillex = '../src/jsm/skrillex.png';
+// boxTexture.skrillex = '../src/jsm/skrillex.png';
 boxTexture.edmText = '../src/jsm/EDM.png';
+boxTexture.logo = '../src/jsm/logo.png';
 
 // 砖块材质
 let stoneTexture = '../src/jsm/stone.png';
@@ -34,7 +35,8 @@ inputText.homeSweetHomeText = '../src/jsm/home-sweet-home-text.png';
 inputText.staticPortfolio = '../src/jsm/static-portfolio.png';
 inputText.pcControl = '../src/jsm/pc-control.png'
 inputText.mobileControl = '../src/jsm/mobile-control.png'
-inputText.link = '../src/jsm/link.png'
+// inputText.link = '../src/jsm/link.png'
+
 
 //SVG
 let SVG = {};
@@ -42,16 +44,16 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 
 // 链接的跳转地址
 let URL = {};
-URL.blog =
-  'https://huabyte.com';
-URL.ryanfloyd = 'https://huabyte.com';
-URL.fund = 'https://github.com/AirHua-byte/FundSpider';
-URL.gitHub = 'https://github.com/AirHua-byte';
-URL.BiliBili = 'https://space.bilibili.com/450443708';
-URL.email = 'https://airhua602@gmail.com';
-URL.music = 'https://music.huabyte.com';
-URL.devTo =
-  'http://wpa.qq.com/msgrd?v=3&uin=3301833942&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3301833942:41';
+// URL.blog =
+//   'https://huabyte.com';
+// URL.ryanfloyd = 'https://huabyte.com';
+// URL.fund = 'https://github.com/AirHua-byte/FundSpider';
+// URL.gitHub = 'https://github.com/AirHua-byte';
+// URL.BiliBili = 'https://space.bilibili.com/450443708';
+// URL.email = 'https://airhua602@gmail.com';
+// URL.music = 'https://music.huabyte.com';
+// URL.devTo =
+//   'http://wpa.qq.com/msgrd?v=3&uin=3301833942&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3301833942:41';
 
 export {
   billboardTextures,

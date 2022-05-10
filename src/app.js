@@ -362,11 +362,11 @@ Ammo().then((Ammo) => {
     addRigidPhysics(linkBox, boxScale);
   }
 
-  // 'AirHua'
+  // 'A开悟'
   function loadRyanText() {
     var text_loader = new THREE.FontLoader();
 
-    text_loader.load('./src/jsm/Poppins_Regular.json', function (font) {
+    text_loader.load('./src/jsm/DFPWaWaW5-GB_Regular.json', function (font) {
       var xMid, text;
 
       var color = 0xfffc00;
@@ -376,9 +376,9 @@ Ammo().then((Ammo) => {
         new THREE.MeshPhongMaterial({ color: color }), // side
       ];
 
-      var geometry = new THREE.TextGeometry("AirHua", {
+      var geometry = new THREE.TextGeometry("A开悟", {
         font: font,
-        size: 3,
+        size: 4,
         height: 0.5,
         curveSegments: 12,
         bevelEnabled: true,
@@ -400,17 +400,18 @@ Ammo().then((Ammo) => {
       text = new THREE.Mesh(geometry, textMaterials);
       text.position.z = -20;
       text.position.y = 0.1;
+      text.position.x = -2;
       text.receiveShadow = true;
       text.castShadow = true;
       scene.add(text);
     });
   }
 
-  //create "Life is loving"
+  //create "archive experiment"
   function loadEngineerText() {
     var text_loader = new THREE.FontLoader();
 
-    text_loader.load('./src/jsm/Poppins_Regular.json', function (font) {
+    text_loader.load('./src/jsm/DFPWaWaW5-GB_Regular.json', function (font) {
       var xMid, text;
 
       var color = 0x00ff08;
@@ -420,9 +421,9 @@ Ammo().then((Ammo) => {
         new THREE.MeshPhongMaterial({ color: color }), // side
       ];
 
-      var geometry = new THREE.TextGeometry('Life is loving', {
+      var geometry = new THREE.TextGeometry('archive experiment', {
         font: font,
-        size: 1.5,
+        size: 3,
         height: 0.5,
         curveSegments: 20,
         bevelEnabled: true,
@@ -442,7 +443,7 @@ Ammo().then((Ammo) => {
       text = new THREE.Mesh(textGeo, textMaterials);
       text.position.z = -20;
       text.position.y = 0.1;
-      text.position.x = 14;
+      text.position.x = 24;//字体移动数值变大往右移
       text.receiveShadow = true;
       text.castShadow = true;
       scene.add(text);
@@ -1028,72 +1029,73 @@ Ammo().then((Ammo) => {
     createTextOnPlane(-14, 0.01, -49, inputText.homeSweetHomeText, 20, 40);
 
     // github
-    createBox(
-      12,
-      2,
-      -70,
-      4,
-      4,
-      1,
-      boxTexture.Github,
-      URL.gitHub,
-      0x000000,
-      true
-    );
+    // createBox(
+    //   12,
+    //   2,
+    //   -70,
+    //   4,
+    //   4,
+    //   1,
+    //   boxTexture.Github,
+    //   URL.gitHub,
+    //   0x000000,
+    //   true
+    // );
 
     // Bilibili
-    createBox(
-      19,
-      2,
-      -70,
-      4,
-      4,
-      1,
-      boxTexture.BiliBili,
-      URL.BiliBili,
-      0x000000,
-      false
-    );
+    // createBox(
+    //   19,
+    //   2,
+    //   -70,
+    //   4,
+    //   4,
+    //   1,
+    //   boxTexture.BiliBili,
+    //   URL.BiliBili,
+    //   0x000000,
+    //   false
+    // );
 
     // 邮箱
-    createBox(
-      27,
-      2,
-      -70,
-      4,
-      4,
-      1,
-      boxTexture.mail,
-      'airhua602@gmail.com',
-      0x000000,
-      false
-    );
+    // createBox(
+    //   27,
+    //   2,
+    //   -70,
+    //   4,
+    //   4,
+    //   1,
+    //   boxTexture.mail,
+    //   'airhua602@gmail.com',
+    //   0x000000,
+    //   false
+    // );
 
     // QQ
-    createBox(
-      35,
-      2,
-      -70,
-      4,
-      4,
-      1,
-      boxTexture.QQ,
-      URL.devTo,
-      0x000000,
-      false
-    );
+    // createBox(
+    //   35,
+    //   2,
+    //   -70,
+    //   4,
+    //   4,
+    //   1,
+    //   boxTexture.QQ,
+    //   URL.devTo,
+    //   0x000000,
+    //   false
+    // );
 
     // 浮动文字
-    floatingLabel(11.875, 4.5, -70, 'Github');
-    floatingLabel(19.125, 4.5, -70, 'BiliBili');
-    floatingLabel(26.875, 4.5, -70, 'Email');
-    floatingLabel(35, 4.5, -70, 'QQ');
+    // floatingLabel(11.875, 4.5, -70, 'Github');
+    // floatingLabel(19.125, 4.5, -70, 'BiliBili');
+    // floatingLabel(26.875, 4.5, -70, 'Email');
+    // floatingLabel(35, 4.5, -70, 'QQ');
 
     // 图片贴图
     allSkillsSection(-50, 0.025, 20, 40, 40, boxTexture.allSkills);
     allSkillsSection(61, 0.025, 13, 30, 60, inputText.activities);
     allSkillsSection(8.5, 0.025, 54, 7, 3.5, boxTexture.skrillex);
     allSkillsSection(9, 0.01, 45, 15, 15, boxTexture.edmText);
+    allSkillsSection(9, 0.01, -12, 15, 10, boxTexture.logo);//第三个数值改变图标上下位置
     allSkillsSection(9, 0.01, 20, 21, 10.5, inputText.staticPortfolio);
 
     createLensFlare(50, -50, -800, 200, 200, boxTexture.lensFlareMain);
@@ -1112,9 +1114,9 @@ Ammo().then((Ammo) => {
     allSkillsSection(23, 0.01, -60, 20, 10, inputText.link);
 
     // 板块文字
-    simpleText(-50, 0.01, -5, 'SKILLS', 3);
-    simpleText(-42, 0.01, -30, 'WORKS', 3);
-    simpleText(61, 0.01, -15, 'WISHES', 3);
+    simpleText(-50, 0.01, -5, 'EXPERIMENT', 3);//xyz
+    simpleText(-42, 0.01, -20, 'WORKS', 3);
+    simpleText(61, 0.01, -25, 'WISHES', 3);
 
     wallOfBricks();
     createTriangle(63, -55);
